@@ -22,7 +22,7 @@ int main(int argc, char *argv[]) {
 	close(fd);
   }
 }
-/* filecopy copy file ifd to ofd */
+/* filecopy copy file fileOne to fileTwo */
 void filecopy(int fileOne, int fileTwo) {
   char buffer[BUF_SIZE];
   int c;
